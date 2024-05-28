@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_zeeshan_07_SIPHouse_1716892712779-push-trigger-input-set
+  identifier: Build_zeeshan_07_SIPHouse_1716892712779pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_zeeshan_07_SIPHouse_1716892712779
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
